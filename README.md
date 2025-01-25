@@ -1,0 +1,3 @@
+# Go Race Condition with Channels
+
+This repository demonstrates a race condition in a Go program that uses channels for inter-goroutine communication.  The program attempts to send and receive data on a channel without proper synchronization, leading to unpredictable results.  The solution shows how to address this race condition using the `sync.WaitGroup` to ensure all goroutines complete before the program exits.
